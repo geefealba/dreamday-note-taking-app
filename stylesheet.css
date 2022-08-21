@@ -1,0 +1,143 @@
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  /*outline: 1px solid red;*/
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Courgette', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  top: 0; /*  Fixed header on top of page */
+  width: 100%;
+  height: 6.25rem;
+  padding: 0;
+  position: fixed;
+  /*background: #F67280; #FFC3A0*/
+  background-color: #ff9671;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+h2 {
+  color: #996515;
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+}
+
+
+  main {
+  margin-top: 6.563rem; /* Next element after header, to make it visible, add header's height + margin */
+  background: #f89fa1;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 0.313rem;  
+  
+}
+ 
+.container-textarea {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  column-gap: .625rem;
+  border-radius: 12px;
+  
+}
+
+textarea{
+  width: auto;
+  height: 100%;
+  margin: 0;
+  resize: none;
+  outline: none;
+  padding: 2rem;
+  border-radius: 12px;
+  /*font: normal 16px / 2rem;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+textarea:hover{
+  border: 2px dashed #008f7a;
+}
+
+#save {
+  margin-top: 0.350rem;
+  background: #6c5b7b;
+  width: 180px;
+  height: 35px;
+  border-radius: 18px;
+  border-style: none;
+  font-size: 1em;
+  color: white;
+  align-self: flex-end;
+}
+
+#save:hover{
+  border: 1px solid white;
+}
+
+.container-newnotes {
+  border-radius: 12px;
+  width: auto;
+}
+
+.wrapper-for-header{
+  margin-top: 0.313rem;
+  margin-bottom: 0.30rem;
+  /*margin-left: 1rem;*/
+  background-color: #f9f871; /*#008e9b*/
+  border-radius: 8px;
+  width: 20rem;
+  height: 2.5rem;
+}
+
+h3{
+  /*margin: 0 auto;*/
+  padding-top: 0.313rem;
+  padding-left: 0.313rem;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefedf;
+  margin: 0.313rem;
+  padding: 0.313rem;
+  border: 1px solid #008f7a;
+  border-radius: 12px;
+}
+
+.saved-notes-delete {
+  margin-top: 0.350rem;
+  background: #6c5b7b;
+  width: 180px;
+  height: 35px;
+  border-radius: 18px;
+  border-style: none;
+  font: normal 14px / 1rem;
+  font-size: 1em;
+  color: white;
+  align-self: flex-end;
+}
+
+.saved-notes-delete:hover{
+  background-color: #d53624;
+}
